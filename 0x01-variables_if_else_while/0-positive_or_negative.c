@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	int a;
+	int a = 98;
+	int b = -98;
+	int c = 0;
 
 	srand(time(0));
 	a = rand() - RAND_MAX / 2;
@@ -16,13 +18,13 @@ int main(void)
 	{
 		printf("%d is positive\n", a);
 	}
-	else if (a < 0)
+	else if (b < 0)
 	{
-		printf("%d is negativetive\n", a);
+		printf("%d is negativetive\n", b);
 	}
 	else
 	{
-		printf("%d is zero\n", a);
+		printf("%d is zero\n", c);
 	}
 	return (0);
 }
