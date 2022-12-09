@@ -9,7 +9,7 @@
 int main(void)
 {
 	int a = 98;
-	int b = -98;
+	int b = - 98;
 	int c = 0;
 
 	if (a > 0)
