@@ -6,23 +6,20 @@
  * main - Entry
  * Return: Always 0
  */
+
 int main(void)
 {
-	int a = 98;
-	int b = - 98;
-	int c = 0;
+	int n;
 
-	if (a > 0)
-	{
-		printf("%d is positive\n", a);
-	}
-	else if (b < 0)
-	{
-		printf("%d is negative\n", b);
-	}
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
 	else
-	{
-		printf("%d is zero\n", c);
-	}
+		printf("%d is negative\n", n)
+
 	return (0);
+							
 }
