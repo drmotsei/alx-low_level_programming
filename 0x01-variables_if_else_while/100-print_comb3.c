@@ -8,7 +8,7 @@ int main(void)
 	int x = '0';
 	int y = '0';
 
-	for (y = '0'; x <= '9'; y++)
+	for (y = '0'; y <= '9'; y++)
 	{
 		for (x = '0'; x <= '9'; x++)
 		{
@@ -18,7 +18,7 @@ int main(void)
 				putchar(x);
 				if (!(x == '9' && y == '8'))
 				{
-				/*	putchar(',');*/
+					putchar(',');
 					putchar(' ');
 				}
 			}
