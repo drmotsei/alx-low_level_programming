@@ -3,7 +3,7 @@
  * _islower - Entry
  * Return: Returns 1 is lowercase, otherwise 0
  */
-int _islower(void)
+int _islower(int c)
 {
 	char c;
 
