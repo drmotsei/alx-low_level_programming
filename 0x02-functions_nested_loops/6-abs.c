@@ -2,11 +2,10 @@
 /**
  * _abs - Entry
  * Return - 0
+ * @r: absolute value
  */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
 	if (r >= 0)
 		return (r);
 	else
