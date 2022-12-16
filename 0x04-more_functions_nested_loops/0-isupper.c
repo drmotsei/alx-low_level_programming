@@ -13,9 +13,9 @@ int _isupper(int c)
 	{
 		if (c == upper)
 		{
-			issuper = 1;
+			isupper = 1;
 			break;
 		}
 	}
-	return (issuper);
+	return (isupper);
 }
