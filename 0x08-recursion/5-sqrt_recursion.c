@@ -1,7 +1,7 @@
 #include "main.h"
 
 int find_sqrt(int num, int root);
-nt _sqrt_recursion(int n);
+int _sqrt_recursion(int n);
 /**
  * find_sqrt - entry
  * @num: number
